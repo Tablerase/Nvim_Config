@@ -4,7 +4,8 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls", "clangd", "pyright", "bashls" }
+-- Config link: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md  
+local servers = { "html", "cssls", "clangd", "pyright", "bashls", "ts_ls" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config

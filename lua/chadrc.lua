@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "penumbra_dark",
+	theme = "penumbra_light",
   theme_toggle = {"penumbra_light", "penumbra_dark"},
 
 	-- hl_override = {
