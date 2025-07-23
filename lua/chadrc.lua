@@ -3,7 +3,27 @@
 -- Please read that file to know all available options :( 
 
 ---@type ChadrcConfig
-local M = {}
+local M = {
+	options = {
+    -- general options
+    general = {
+      ui_notifications = true, -- enable/disable notifications
+      ui_notifications_timeout = 3000, -- timeout for notifications in ms
+      ui_notifications_level = "info", -- level of notifications to show
+      ui_notifications_max_width = 80, -- max width of notifications
+    },
+    -- lsp options
+    lsp = {
+      enable = true, -- enable/disable LSP
+      auto_format = true, -- auto format on save
+      diagnostics = {
+      virtual_text = true, -- show diagnostics as virtual text
+      signs = true, -- show diagnostic signs in the gutter
+      underline = true, -- underline diagnostics
+      },
+    },
+  },
+}
 
 M.base46 = {
 	theme = "penumbra_light",

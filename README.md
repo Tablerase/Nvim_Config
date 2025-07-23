@@ -6,4 +6,23 @@
 
 # Credits
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+1. Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+
+## Tablerase version
+
+Regular sync workflow:
+
+```
+cd $HOME/.config/nvim
+git fetch upstream
+```
+
+```
+git merge upstream/main
+```
+
+Resolve any conflicts, then:
+
+```
+git push origin main
+```

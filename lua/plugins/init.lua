@@ -51,5 +51,10 @@ return {
       local ts = require('telescope').load_extension 'emoji'
       vim.keymap.set('n', '<leader>se', ts.emoji, { desc = '[S]earch [E]moji' })
     end,
-  }
+  },
+  -- Tmux:
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }
