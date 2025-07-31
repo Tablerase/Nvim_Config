@@ -17,9 +17,9 @@ local M = {
       enable = true, -- enable/disable LSP
       auto_format = true, -- auto format on save
       diagnostics = {
-      virtual_text = true, -- show diagnostics as virtual text
-      signs = true, -- show diagnostic signs in the gutter
-      underline = true, -- underline diagnostics
+        virtual_text = true, -- show diagnostics as virtual text
+        signs = true, -- show diagnostic signs in the gutter
+        underline = true, -- underline diagnostics
       },
     },
   },

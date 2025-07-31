@@ -3,8 +3,16 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 local nvlsp = require "nvchad.configs.lspconfig"
 
--- Config link: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md  
-local servers = { "html", "cssls", "clangd", "pyright", "bashls", "ts_ls" }
+-- Config link: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
+local servers = {
+  "html",
+  "cssls",
+  "clangd",
+  "pyright",
+  "bashls",
+  "ts_ls",
+  "ansiblels",
+}
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
@@ -22,7 +30,5 @@ end
 --   capabilities = nvlsp.capabilities,
 -- }
 
-
-
 vim.lsp.enable(servers)
--- read :h vim.lsp.config for changing options of lsp servers 
+-- read :h vim.lsp.config for changing options of lsp servers
