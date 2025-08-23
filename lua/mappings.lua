@@ -7,7 +7,7 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>", { desc = "Exit insert mode" })
 
 -- File explorer mappings
-map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
+-- map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
 
 -- Telescope mappings
 map("n", "<leader>ft", "<cmd>Telescope treesitter<CR>", { desc = "Telescope find symbols(treesitter)" })

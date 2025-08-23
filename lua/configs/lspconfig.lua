@@ -5,13 +5,15 @@ local nvlsp = require "nvchad.configs.lspconfig"
 
 -- Config link: https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md
 local servers = {
-  "html",
+  "ansiblels",
   "cssls",
   "clangd",
-  "pyright",
   "bashls",
+  "html",
+  "pyright",
+  "ruby_lsp",
   "ts_ls",
-  "ansiblels",
+  "yamlls"
 }
 
 -- lsps with default config
