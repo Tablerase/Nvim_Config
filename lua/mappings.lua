@@ -1,5 +1,7 @@
 require "nvchad.mappings"
 
+-- Icons: https://www.nerdfonts.com/cheat-sheet
+
 local map = vim.keymap.set
 
 -- General mappings
@@ -8,6 +10,10 @@ map("i", "jk", "<ESC>", { desc = "Exit insert mode" })
 
 -- File explorer mappings
 -- map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
+
+-- Minty (NvChad Color Plugin)
+map('n', '<leader>cs', "<cmd>Shades<CR>", { desc = "Color Minty Shades"})
+map('n', '<leader>cp', "<cmd>Huefy<CR>", { desc = "Color Minty Picker"})
 
 -- Telescope mappings
 map("n", "<leader>ft", "<cmd>Telescope treesitter<CR>", { desc = "Telescope find symbols(treesitter)" })
