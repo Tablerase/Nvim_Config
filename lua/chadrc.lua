@@ -28,6 +28,7 @@ local M = {
 M.base46 = {
 	theme = "one_light",
   theme_toggle = {"one_light", "penumbra_dark"},
+  transparency = true, --background handle by terminal app
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -37,9 +38,9 @@ M.base46 = {
 
 M.nvdash = { load_on_startup = true }
 M.ui = {
-      tabufline = {
-         lazyload = false
-     }
+  tabufline = {
+     lazyload = false
+  },
 }
 
 return M
