@@ -7,3 +7,4 @@ o.wrap = true
 o.number = true
 o.relativenumber = true
 -- o.cursorlineopt ='both' -- to enable cursorline!
+

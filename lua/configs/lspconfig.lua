@@ -34,3 +34,21 @@ end
 
 vim.lsp.enable(servers)
 -- read :h vim.lsp.config for changing options of lsp servers
+
+-- LSP visuals
+-- by default lsp config sets K in normal mode to hover with no border
+-- https://github.com/neovim/nvim-lspconfig?tab=readme-ov-file#configuration
+-- manually overriding the mapping passing in the border style
+vim.keymap.set({ "n" }, "K", function()
+  vim.lsp.buf.hover { border = "rounded" }
+end, { desc = "LSP show details", silent = true })
+
+-- sets border for diagnostics and opens them on jump in a floating window
+vim.diagnostic.config {
+  jump = {
+    float = true,
+  },
+  float = {
+    border = "rounded",
+  },
+}
