@@ -15,5 +15,6 @@ return {
   opts = {
     suppressed_dirs = { "~/", "~/Projects", "~/Downloads", "/" },
     -- log_level = 'debug',
+    bypass_session_save_file_types = { "gitcommit" },
   },
 }

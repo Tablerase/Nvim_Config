@@ -1,6 +1,7 @@
 -- Emoji integrated with telescope and cm
 return {
   "allaman/emoji.nvim",
+  -- Doc: https://github.com/Allaman/emoji.nvim
   version = "1.0.0", -- optionally pin to a tag
   ft = "*", -- active file type : adjust to your needs
   dependencies = {
@@ -8,6 +9,8 @@ return {
     "hrsh7th/nvim-cmp",
     -- optional for telescope integration
     "nvim-telescope/telescope.nvim",
+    -- optional for fzf-lua integration via vim.ui.select
+    "ibhagwan/fzf-lua",
   },
   opts = {
     -- default is false
