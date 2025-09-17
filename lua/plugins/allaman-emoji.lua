@@ -3,14 +3,14 @@ return {
   "allaman/emoji.nvim",
   -- Doc: https://github.com/Allaman/emoji.nvim
   version = "1.0.0", -- optionally pin to a tag
-  ft = "*", -- active file type : adjust to your needs
+  ft = {"markdown", "text", "javascript", "python", "typescript", "html", "lua", "gitcommit"}, -- active file type : adjust to your needs
   dependencies = {
     -- optional for nvim-cmp integration
-    "hrsh7th/nvim-cmp",
+    -- "hrsh7th/nvim-cmp",
     -- optional for telescope integration
     "nvim-telescope/telescope.nvim",
     -- optional for fzf-lua integration via vim.ui.select
-    "ibhagwan/fzf-lua",
+    -- "ibhagwan/fzf-lua",
   },
   opts = {
     -- default is false

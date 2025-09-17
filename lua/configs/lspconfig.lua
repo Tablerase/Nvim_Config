@@ -30,6 +30,14 @@ end
 --   on_attach = nvlsp.on_attach,
 --   on_init = nvlsp.on_init,
 --   capabilities = nvlsp.capabilities,
+--   init_options = {
+--     preferences = {
+--       -- importModuleSpecifier = "non-relative",
+--       importModuleSpecifierPreference = "shortest",
+--       includeCompletionsForModuleExports = true,
+--       includeCompletionsForImportStatements = true,
+--     },
+--   },
 -- }
 
 vim.lsp.enable(servers)
