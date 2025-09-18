@@ -3,7 +3,7 @@ return {
   "allaman/emoji.nvim",
   -- Doc: https://github.com/Allaman/emoji.nvim
   version = "1.0.0", -- optionally pin to a tag
-  ft = {"markdown", "text", "javascript", "python", "typescript", "html", "lua", "gitcommit"}, -- active file type : adjust to your needs
+  ft = {"markdown", "text", "javascript", "javascriptreact" , "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx", "html", "lua", "python", "gitcommit"}, -- active file type : adjust to your needs
   dependencies = {
     -- optional for nvim-cmp integration
     -- "hrsh7th/nvim-cmp",
