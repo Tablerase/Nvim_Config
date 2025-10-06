@@ -1,1 +1,0 @@
-/home/rcutte/.config/omarchy/current/theme/neovim.lua
